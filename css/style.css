@@ -1,0 +1,254 @@
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap');
+
+  /**HEADER**/
+
+  html {
+    scrollbar-width: 6px;
+  }
+
+  html::-webkit-scrollbar {
+    width: 12px;
+
+  }
+
+  html::-webkit-scrollbar-thumb {
+    background-color: #085ee0;
+    ;
+    border-radius: 5px;
+  }
+
+  html::-webkit-scrollbar-thumb:hover {
+    background-color: #2b498b;
+
+  }
+
+  html::-webkit-scrollbar-track {
+    background-color: rgb(226 226 226);
+  }
+
+
+  .header {
+    background-color: var(--bg-box);
+
+
+  }
+
+
+
+  .header {
+    background-color: rgb(9, 93, 204);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+  }
+
+  .container {
+    margin: 0 auto;
+    justify-content: space-between;
+    display: flex;
+  }
+
+  .head_cont {
+    align-items: center;
+    max-width: 854px;
+    padding: 22px;
+
+  }
+
+  .logo h1 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .nav_link a {
+    color: white;
+    margin-left: 35px;
+    ;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+
+  }
+
+
+  /*section-one*/
+
+  .section_one {
+    margin-top: 100px;
+  }
+
+  .section-one_container {
+    padding: 22px;
+    max-width: 850px;
+    margin: 0 auto;
+  }
+
+  .section-one_title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+  }
+
+  .section-one_subtitle p {
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    font-size: 16px;
+    color: grey;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .oclock {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+  }
+
+  hr {
+    margin-top: 50px;
+  }
+
+  /*section-two*/
+
+  .section-two_title h1 {
+    color: red;
+    font-size: 26px;
+    margin-bottom: 40px;
+  }
+
+  .section-two_img {
+    position: relative;
+  }
+
+  .section-two_img img {
+    width: 100%;
+
+  }
+
+  .text-img {
+    position: absolute;
+    bottom: -5%;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+    width: 100%;
+    font-size: 28px;
+    text-align: center;
+    color: white;
+    background: #505050;
+  }
+
+  .section-two_subtitle {
+    margin-top: 80px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    color: #555555;
+    margin-bottom: 50px;
+  }
+
+  .text-img-two {
+    position: absolute;
+    bottom: -14%;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+    width: 100%;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    background: #505050;
+
+  }
+
+  /*section-three*/
+
+  .section-three_text {
+    margin-top: 125px;
+  }
+
+  .section-three_title {
+    margin-bottom: 30px;
+    font-size: 28px;
+    font-family: 'Roboto', sans-serif;
+    font-family: 900;
+  }
+
+  .section-three_subtitle {
+    margin-bottom: 38px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: #505050;
+    font-weight: 400;
+  }
+
+  .section-three_subtitle span {
+    text-decoration-line: underline;
+    color: black;
+    font-weight: 900;
+  }
+
+
+  .text-img-three {
+    position: absolute;
+    bottom: -9%;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+    width: 100%;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    background: #505050;
+  }
+
+  .block {
+    margin-bottom: 30px;
+
+  }
+
+  .section-three_title-block {
+    margin: 90px 0px 30px 0px;
+    font-size: 28px;
+    font-family: 'Roboto', sans-serif;
+    font-family: 900;
+  }
+
+
+  /**footer*/
+
+  .footer_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .copy {
+    margin-bottom: 10px;
+    color: rgb(7, 7, 150);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+  }
+
+  .footer_private {
+    margin-bottom: 20px;
+
+  }
+
+
+  .footer_private a {
+    color: purple;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+  }
+
+  .footer_private a:hover {
+
+    text-decoration: underline;
+
+  }
