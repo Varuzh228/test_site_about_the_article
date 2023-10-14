@@ -2,6 +2,10 @@
 
   /**HEADER**/
 
+html {
+  scroll-behavior: smooth;
+}
+
   html {
     scrollbar-width: 6px;
   }
